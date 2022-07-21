@@ -13,7 +13,7 @@ spec:
     name: in-cluster
   project: nginx-pod
   source:
-    repoURL: https://github.com/GITHUB_USER/GITHUB_REPO.git
+    repoURL: https://github.com/nightmar39/cd-thirty-seconds.git
     targetRevision: main
     path: ./k8s-resources/nginx-pod/dev
   syncPolicy:
