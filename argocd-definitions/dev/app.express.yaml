@@ -9,7 +9,7 @@ metadata:
 spec:
   destination:
     namespace: express-dev
-    name: docker-ngrok
+    name: in-cluster
   project: default
   source:
     path: ./k8s-resources/express/overlays/dev
